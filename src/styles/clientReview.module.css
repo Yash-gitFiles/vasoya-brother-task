@@ -1,0 +1,112 @@
+.container {
+  width: 100%;
+  padding: 32px;
+}
+
+.innerContainer {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 32px;
+  position: relative;
+}
+
+.cardContainer {
+  background-color: #d15b3e;
+  border-radius: 30px;
+  color: white;
+  height: 276px;
+  width: 125%;
+  position: relative;
+}
+
+.cardContainer p {
+  position: absolute;
+  left: 22px;
+  top: 22px;
+  bottom: 22px;
+  right: 30%;
+}
+
+.imagesContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 32px;
+  height: 216px;
+  position: absolute;
+  left: 25%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.icon i {
+  font-size: 1rem;
+}
+
+.imagesContainer div {
+  overflow: hidden;
+  padding: 12px;
+  border-radius: 30px;
+  background-color: white;
+  
+}
+
+.imagesContainer div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 18px;
+}
+
+.imgDesc {
+  display: flex;
+  align-items: center;
+}
+
+.imgContainer {
+  height: 60px;
+  width: 60px;
+}
+
+.imgContainer img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+  object-fit: cover;
+}
+
+.contactContainer {
+  flex-grow: 1;
+}
+
+@media screen and (max-width: 900px) {
+  .cardContainer p {
+    right: 22px;
+  }
+
+  .innerContainer {
+    grid-template-columns: 1fr;
+  }
+  .imagesContainer {
+    position: unset;
+    width: 92.5%;
+    display: flex;
+    margin: auto;
+    height: auto;
+  }
+
+  .cardContainer {
+    width: 100%;
+    height: 220px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .imagesContainer {
+    flex-direction: column;
+    transform: translateY(0%);
+    width: 100%;
+  }
+  .innerContainer {
+    height: auto;
+  }
+}

@@ -1,0 +1,55 @@
+.container {
+  background-color: #d15b3e;
+  padding: 32px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.first {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.firstFirst {
+  max-width: 210px;
+}
+
+.iconContainer {
+  display: flex;
+  gap: 8px;
+}
+
+.firstSecond {
+}
+.firstThird {
+}
+.firstFourth {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.firstFourth .addresss {
+  display: flex;
+  gap: 16px;
+}
+
+.firstFourth .email {
+  display: flex;
+  gap: 16px;
+}
+
+.firstFourth .number {
+  display: flex;
+  gap: 16px;
+}
+
+/*  second */
+
+.second {
+  text-align: center;
+  padding: 8px;
+}
