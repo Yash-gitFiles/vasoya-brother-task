@@ -1,6 +1,7 @@
 .container {
   width: 100%;
   padding: 32px;
+  background-color: #eeeeee;
 }
 
 .innerContainer {
@@ -47,7 +48,6 @@
   padding: 12px;
   border-radius: 30px;
   background-color: white;
-  
 }
 
 .imagesContainer div img {

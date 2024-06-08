@@ -6,7 +6,7 @@
   flex-direction: column;
   max-width: 400px;
   padding: 16px; */
-  background-color: #eeeeee;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   display: flex;
   flex-direction: column;
   padding: 16px;
@@ -66,4 +66,5 @@
   justify-content: space-between;
   padding: 24px;
   gap: 16px;
+  background-color: #eeeeee;
 }

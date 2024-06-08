@@ -8,6 +8,7 @@ import CurrentProjects from "../components/home/CurrentProjects";
 import Trust from "../components/home/Trust";
 import MainHero from "../components/home/MainHero";
 import ClientReviews from "../components/home/ClientReviews";
+import Greetings from "../components/home/Greetings";
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
       <MainHero />
       <CountRow />
       <Trust />
+      <Greetings />
       <ServicesOfferedRow />
       <Work />
       <CurrentProjects />

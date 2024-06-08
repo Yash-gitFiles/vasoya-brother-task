@@ -26,7 +26,7 @@ function ServicesOfferedRow() {
     return <ServicesOffered key={index} value={value} />;
   });
   return (
-    <div>
+    <div style={{ marginTop: "100px" }}>
       <Title title="The Services We Offered" />
       <div className={styles.container}>{component}</div>
     </div>
